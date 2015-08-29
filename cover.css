@@ -118,6 +118,23 @@ body {
 }
 
 
+.round-container {
+  width: 160px;
+  height: 160px;
+  background-image: url(images/alanpic.jpg);
+  background-position: 45% 22%;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  border: 7px solid white;
+  border-radius: 150px;
+  position: relative;
+  left: 38%;
+}
+
+.profile-img{
+  transform: scale;
+}
+
 /*
  * Footer
  */
