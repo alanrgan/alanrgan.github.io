@@ -117,6 +117,14 @@ body {
   font-weight: bold;
 }
 
+@keyframes rotation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
 
 .round-container {
   width: 160px;
@@ -129,6 +137,10 @@ body {
   border-radius: 150px;
   position: relative;
   left: 38%;
+}
+
+.round-container {
+  -webkit-animation: rotation 5s 0s infinite linear alternate;
 }
 
 .profile-img{
