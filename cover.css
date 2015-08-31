@@ -140,7 +140,7 @@ body {
 }
 
 .round-container {
-  -webkit-animation: rotation 5s 0s infinite linear alternate;
+  -webkit-animation: rotation 5s 0s infinite cubic-bezier(0.500, 0.045, 0.495, 1.260) alternate;
 }
 
 .profile-img{
