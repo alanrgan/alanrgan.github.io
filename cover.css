@@ -173,6 +173,15 @@ body {
 }
 
 /*
+ * Body Divs
+ */
+
+ #features {
+  position: relative;
+  top: -220px;
+ }
+
+/*
  * Footer
  */
 
