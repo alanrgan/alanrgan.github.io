@@ -176,10 +176,29 @@ body {
  * Body Divs
  */
 
- #features {
+ #projects {
   position: relative;
-  top: -220px;
+  top: -222px;
  }
+
+ #contact {
+  position: relative;
+  top: -282px;
+ }
+
+
+/*
+ * Other
+ */
+
+.btn {
+  margin-right: 3px;
+  margin-top: 5px;
+}
+
+input:focus {
+  outline:0 !important;
+}
 
 /*
  * Footer
