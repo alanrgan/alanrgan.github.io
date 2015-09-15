@@ -178,12 +178,12 @@ body {
 
  #projects {
   position: relative;
-  top: -222px;
+  top: -184px;
  }
 
  #contact {
   position: relative;
-  top: -282px;
+  top: -244px;
  }
 
 
@@ -194,10 +194,17 @@ body {
 .btn {
   margin-right: 3px;
   margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-input:focus {
+button:focus {
   outline:0 !important;
+}
+
+button .glyphicon {
+  padding-top: 2px;
 }
 
 /*
