@@ -32,13 +32,13 @@ $(document).ready(function() {
 		else if(buttonId == "resumebtn")
 			window.location.replace("files/AlanGanResume.pdf");
 		else if(buttonId == "linkedinbtn")
-			window.location.replace("https://www.linkedin.com/pub/alan-gan/92/975/53a");
+			window.location.replace("https://www.linkedin.com/in/alanrgan");
 		else if(buttonId == "goodreadsbtn")
 			window.location.replace("https://www.goodreads.com/user/show/1831090-alan-gan")
 		else if(buttonId == "treebtn")
 			window.location.replace("http://www.github.com/alanrgan/TreeVisualizer");
 		else if(buttonId == "ballgamebtn")
-			window.location.replace("http://www.github.com/alanrgan/BallJump");
+			window.location.replace("http://www.github.com/alanrgan/BallJumpt");
 		return false;
 	});
 });
