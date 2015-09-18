@@ -30,7 +30,7 @@ $(document).ready(function() {
 		else if(buttonId == "emailbtn")
 			window.location.replace("mailto:alanrgan@gmail.com");
 		else if(buttonId == "resumebtn")
-			window.location.replace("files/AlanGanResume.pdf");
+			window.location.replace("files/AlanResumeWeb.pdf");
 		else if(buttonId == "linkedinbtn")
 			window.location.replace("https://www.linkedin.com/in/alanrgan");
 		else if(buttonId == "goodreadsbtn")
@@ -38,7 +38,7 @@ $(document).ready(function() {
 		else if(buttonId == "treebtn")
 			window.location.replace("http://www.github.com/alanrgan/TreeVisualizer");
 		else if(buttonId == "ballgamebtn")
-			window.location.replace("http://www.github.com/alanrgan/BallJumpt");
+			window.location.replace("http://www.github.com/alanrgan/BallJump");
 		return false;
 	});
 });
