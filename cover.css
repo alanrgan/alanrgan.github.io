@@ -32,6 +32,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
 }
 
 .background-image {
@@ -73,7 +74,6 @@ body {
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Other
@@ -136,6 +136,7 @@ body {
 
 .cover {
   padding: 0 20px;
+  padding-top: 100px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -179,11 +180,13 @@ body {
  #projects {
   position: relative;
   top: -184px;
+  z-index: 3;
  }
 
  #contact {
   position: relative;
   top: -244px;
+  z-index: 1;
  }
 
 
@@ -206,6 +209,8 @@ button:focus {
 button .glyphicon {
   padding-top: 2px;
 }
+
+#projects
 
 /*
  * Footer
