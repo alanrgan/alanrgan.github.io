@@ -1,0 +1,2 @@
+#!/bin/bash
+~/sonic-annotator -d vamp:mtg-melodia:melodia:melody ~/myRecording01.wav -w csv
