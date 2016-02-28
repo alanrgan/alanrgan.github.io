@@ -1,4 +1,4 @@
 RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^alanrgan\.com/earworm [NC]
+RewriteCond %{HTTP_HOST} ^alanrgan\.com/auris [NC]
 RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.alanrgan.com/earworm$1 [R,L]
+RewriteRule ^(.*)$ https://www.alanrgan.com/auris$1 [R,L]
