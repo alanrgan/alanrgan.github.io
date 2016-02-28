@@ -8,7 +8,7 @@
 			$("#butto").click(runpy);
 
 			function runpy() {
-				$.post("hello.py", function(data) {
+				$.post("/hello.py", function(data) {
 					alert(data);
 				});
 			}
