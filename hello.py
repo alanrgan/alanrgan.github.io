@@ -1,8 +1,6 @@
-from bottle import route, run, template
+import subprocess
 
-@route('/<name>')
-
-def index(name):
-	return template('<b>Hello {{name}}!', name=name)
-
-run(host='localhost', port=8080)
+def runscript():
+	print "start"
+	subprocess.call("./untitled")
+	print "end"
