@@ -25,20 +25,38 @@ $(document).ready(function() {
 
 	$("button").click(function() {
 		var buttonId = $(this).attr('id');
-		if(buttonId == "githubbtn")
-			window.location.replace("http://www.github.com/alanrgan");
-		else if(buttonId == "emailbtn")
-			window.location.replace("mailto:alanrgan@gmail.com");
-		else if(buttonId == "resumebtn")
-			window.location.replace("files/AlanResumeWeb.pdf");
-		else if(buttonId == "linkedinbtn")
-			window.location.replace("https://www.linkedin.com/in/alanrgan");
-		else if(buttonId == "goodreadsbtn")
-			window.location.replace("https://www.goodreads.com/user/show/1831090-alan-gan")
-		else if(buttonId == "treebtn")
-			window.location.replace("http://www.github.com/alanrgan/TreeVisualizer");
-		else if(buttonId == "ballgamebtn")
-			window.location.replace("http://www.github.com/alanrgan/BallJump");
-		return false;
+        switch (buttonId) {
+            case "githubbtn":
+                window.location.replace("http://www.github.com/alanrgan");
+                break;
+            case "emailbtn":
+                window.location.replace("mailto:alanrgan@gmail.com");
+                break;
+            case "resumebtn":
+                window.location.replace("files/AlanResumeWeb.pdf");
+            case "linkedinbtn":
+                window.location.replace("https://www.linkedin.com/in/alanrgan");
+                break;
+            case "goodreadsbtn":
+                window.location.replace("https://www.goodreads.com/user/show/1831090-alan-gan");
+                break;
+            case "treebtn":
+                window.location.replace("http://www.github.com/alanrgan/TreeVisualizer");
+                break;
+            case "ballgamebtn":
+                window.location.replace("http://www.github.com/alanrgan/BallJump");
+                break;
+            case "wikigraphbtn":
+                window.location.replace("http://www.github.com/alanrgan/WikiGraph");
+                break;
+            case "rustintbtn":
+                window.location.replace("http://www.github.com/alanrgan/rust-interpreter");
+                break;
+            case "rustchatbtn":
+                window.location.replace("http://www.github.com/alanrgan/rust-chat");
+                break;
+            default:
+                return false;
+        }
 	});
 });
