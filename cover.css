@@ -166,7 +166,7 @@ body {
 }
 
 .round-container {
-  -webkit-animation: rotation 5s 0s infinite linear alternate;
+  /*-webkit-animation: rotation 5s 0s infinite linear alternate;*/
 }
 
 .profile-img{
